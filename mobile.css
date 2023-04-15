@@ -23,6 +23,9 @@
         
         
     }
+    .about-page{
+        height: 850px;
+    }
     .about-img{
         display: none;
         justify-content: center;
@@ -30,6 +33,30 @@
     .about-text{
         display: block;
     }
+    .about-text2 p {
+        line-height: 1.5;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        /* text-align: justify; */
+    }
+    .footers{
+        flex-direction: column;
+        padding: 5% 0%;
+    }
+    .footer-container{
+        height: 450px;
+        
+    }
+    .select-menu{
+        border: 3px solid blue;
+        margin-left: 0px
+    }
+    /* .footer-container{
+        background-color: black;
+       
+        
+    } */
     
     
 }

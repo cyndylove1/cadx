@@ -3,13 +3,13 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: 'lato',sans-serif;
     
 }
 body{
     height: 800px;
+    scroll-behavior: smooth;
 }
 
 .main{
@@ -23,7 +23,7 @@ body{
     background-attachment: fixed;
 }
 .nav-mobile{
-    /* position: fixed; */
+    position: fixed;
     display: none;
     height: 63px;
     width: 100%;
@@ -31,6 +31,7 @@ body{
     padding: 10px 10px;
     align-items: center;
     background-color: rgb(7, 179, 247);
+    z-index: 1;
    
 }
 .nav-brand{
@@ -190,7 +191,7 @@ body{
 }
 .desktoplink ul{
     display: flex;
-    padding-right: 80px;
+    padding-right: 20%;
     height: 50px;
     background-color: rgb(7, 179, 247);
     justify-content: flex-end;
@@ -262,33 +263,37 @@ body{
     
 }
 .about{
-    height: 500px;
     background-color: whitesmoke;
 }
 .about-page{
-    height: 100vh;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
 }
 
-.about-text {
+/* .about-text {
     font-size: 10px;
-    padding: 3% 0;
+    width: 50%;
+    border: 3px solid green;
 
-}
+} */
 .about-text1 h1{
+    border: 2px solid red;
+    /* width: 100%; */
     text-align: center;
     padding-top: 30px;
     font-size: 25px;
     color: rgb(7, 179, 247);
 
 }
-.about-text2 h1{
+.about-text2 p {
     line-height: 1.5;
-    /* width: 30%; */
-    text-align: justify;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    /* text-align: justify; */
 }
 .about-img{
     height: 200px;
@@ -300,7 +305,7 @@ body{
 }
 .service{
     padding: 3% 10%;
-    background: whitesmoke;
+    background: white;
 }
 .service-image{
     display: grid;
@@ -334,12 +339,13 @@ body{
 }
 .footer-container{
     background-color: black;
-    padding: 5% 7%;
+   
     
 }
 .footers{
     /* border: 2px solid red; */
     height: 180px;
+     padding: 5% 5%;
     display: flex;
    
     /* justify-content: space-between; */
