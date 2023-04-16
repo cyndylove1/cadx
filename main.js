@@ -12,20 +12,14 @@ function addandremove(){
    hamburger.classList.toggle('showburger')
    mobilecontainer.classList.toggle('showmobilelinks')
 }
-const optionMenu = document.querySelector(".select-menu"),
-      selectBtn = optionMenu.querySelector(".select-btn"),
-      options = optionMenu.querySelector(".option"),
-      sBtn_text = optionMenu.querySelector(".sBtn-text");
+const sr = ScrollReveal ({
+   distance: '60px',
+   duration: 2000,
+   reset: true
 
-      options.forEach(option =>{
-         option.addEventListner("click",() =>{
-            let selectedOption = option.querySelector(".option-text").innerText;
-            sBtn_text.innerText = selectedOption;
-            console.log(selectedOption)
+})
+sr.reveal('.about,.about-text h2,.about-text p,.serivces,.service-items',{delay:350, origin:'bottom'})
 
-
-         })
-})            
 
       
         
