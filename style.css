@@ -46,26 +46,13 @@ body{
     color: #fff; */
 }
 .logo1{
-    /* background: goldenrod; */
-    padding: 0px 10px;
-    width: 100%;
-    display: flex;
-    height: 40px;
-    /* clip-path: polygon(26% 0, 100% 0%, 100% 100%, 25% 100%, 3% 100%);  */
-    /* clip-path: polygon(0 0, 100% 0%, 100% 0, 80% 100%, 0 100%); */
+    font-size: 15px;
+    padding: 10px 0;
+    color: white;
+    padding-left: 12%;
 }
     
 
-
-.logo1 i{
-    color: rgb(87, 1, 87);
-    font-size: 30px;
-
-}
-.logo1 span{
-    color: white;
-    font-size: 25px;
-}
 .hamburger-container{
     /* border:2px solid rgb(87, 1, 87); */
     width: 3.43rem;
@@ -183,30 +170,40 @@ body{
 
 .nav-desktop{
     position: fixed;
+    height: 50px;
     width: 100%;
+    display: flex;
     z-index: 1;
+    background-color: rgb(7, 179, 247);
 }
 .logo{
-    font-size: 10px;
+    font-size: 15px;
+    padding: 10px 0;
+    color: white;
+    padding-left: 12%;
+}
+.desktoplink{
+    margin-left: 35%;
 }
 .desktoplink ul{
     display: flex;
-    padding-right: 20%;
-    height: 50px;
-    background-color: rgb(7, 179, 247);
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* margin: 0 60%; */
+    
     /* position: fixed; */
     /* z-index: 1; */
 }
 .desktoplink li{
     list-style: none;
     margin-left: 30px;
-    left: 30px;
+    padding: 10px 0;
+    /* left: 30px; */
 }
 .desktoplink ul li a{
     /* border: 2px solid red; */
     padding: 5px 10px;
+    /* margin: 10px 0; */
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -277,15 +274,15 @@ body{
     /* height: 400px; */
     /* border: 3px solid red; */
 }
-.about-text h1{
+.about-text h2{
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 .about-text p{
     text-align: justify;
-    padding:0 30px;
-    font-size: 20px;
+    padding:0 20px;
+    font-size: 18px;
 }
 
 .about-img{
@@ -331,22 +328,28 @@ body{
 
 }
 .footer-container{
-    background-color: black;
-    padding: 5% 5%;
-    height: 180px;
-    display: flex;
-    /* margin-left: 10%; */
-    /* justify-content: space-between; */
-    align-items: center;
-   
-    
+    background-color: black;  
+}
+.footer-container p{
+    color: white;
+    font-size: 10px;
+    /* font-weight: 600; */
+    text-align: center;
+    letter-spacing: 1.5;
 }
 .footers{
+    display: flex;
+    padding: 5% 5%;
+    height: 250px;
+    width: 100%;
+    
+     /* justify-content: space-between; */
+     align-items: center;
     /* border: 2px solid red; */
     
 }
 .footer-text{
-    margin: 0 10%;
+    margin: 0 7%;
 }
 .footer-text h1{
     color: rgb(7, 179, 247);

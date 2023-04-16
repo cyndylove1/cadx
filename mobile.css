@@ -41,20 +41,17 @@
     }
     .about-text p{
         text-align: justify;
-        padding-left: 30px;
+        /* padding-left: 30px; */
         font-size: 17px;
     }
     
-    .footers{
-        flex-direction: column;
-        /* padding: 5% 0%; */
-    }
+    
     .footer-container{
-        height: 500px;
+        height: 550px;
         
     }
     .footer-text{
-        margin: 0px;
+        margin: 0 8%;
     }
     .select-menu{
         /* border: 3px solid blue; */
@@ -103,8 +100,16 @@
     
     }
     .service{
-        padding: 3% 6%;
+        padding: 3% 5%;
         background: whitesmoke;
+    }
+    .footers{
+        display: block;
+        flex-direction: column;
+        /* padding: 5% 0%; */
+    }
+    .footer-text{
+        margin: 0px;
     }
     
     
@@ -146,6 +151,10 @@
     .main-text h1{
         font-size: 40px;
         
+    }
+    .service{
+        padding: 3% 5%;
+        background: whitesmoke;
     }
     
 }
