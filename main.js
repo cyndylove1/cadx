@@ -20,7 +20,7 @@ const sr = ScrollReveal ({
 })
 sr.reveal('.main-text', {delay:350, origin:'top'})
 
-sr.reveal('.about,.about-text h2,.about-text p,.serivces,.service-items', {delay:350, origin:'bottom'})
+sr.reveal('.about-img,.about-text,.serivces,.service-text,.service-items,.footers', {delay:350, origin:'bottom'})
 
 
       
