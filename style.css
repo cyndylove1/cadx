@@ -272,6 +272,7 @@ body{
 }
 .about-text{
     /* height: 400px; */
+    width: 50%;
     /* border: 3px solid red; */
 }
 .about-text h2{
@@ -280,6 +281,7 @@ body{
     padding: 20px 0;
 }
 .about-text p{
+    padding-bottom: 20px;
     text-align: justify;
     padding: 0 10px;
     font-size: 18px;

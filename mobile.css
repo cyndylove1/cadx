@@ -39,6 +39,9 @@
     .about-text h1{
         padding: 20px 0;
     }
+    .about-text{
+        width: 100%;
+    }
     .about-text p{
         text-align: justify;
         /* padding-left: 30px; */
