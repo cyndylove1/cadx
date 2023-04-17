@@ -382,6 +382,10 @@ body{
     
 
 }
+.select-menu a:hover{
+    color: rgb(7, 179, 247);
+    transition: 0.5s;
+}
 .contact{
     margin: 0 10%;
     /* margin-left: 10%; */
@@ -414,4 +418,7 @@ padding: 20px 10px;
 .mail a{
     text-decoration: none;
     color: white;
+}
+.mail a:hover{
+    color: rgb(7, 179, 247);
 }
